@@ -1,0 +1,22 @@
+﻿Публикация проекта LibraryApp на GitHub
+=======================================
+
+1. Создайте репозиторий на GitHub (github.com -> New repository, имя LibraryApp, без README).
+
+2. В Visual Studio или в терминале, в папке с решением:
+
+   git init
+   git add .
+   git commit -m "feat: add library app with debugging and code inspection"
+
+3. Подключите удалённый репозиторий (замените YOUR-USERNAME):
+
+   git branch -M main
+   git remote add origin https://github.com/YOUR-USERNAME/LibraryApp.git
+   git push -u origin main
+
+4. Обновите страницу репозитория и убедитесь, что загружены:
+   LibraryApp.sln, LibraryApp/Book.cs, LibraryApp/Library.cs, LibraryApp/Program.cs,
+   LibraryApp/TEST_REPORT.md, LibraryApp/README.md, .gitignore.
+
+Файл .gitignore уже включён в архив и исключает bin/, obj/, .vs/.
